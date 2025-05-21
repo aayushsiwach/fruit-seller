@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard Snapshot renders correctly and matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1dc3bjb-MuiPaper-root-MuiCard-root"
+  >
+    <img
+      alt="Grapes"
+      class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-6mo23z-MuiCardMedia-root"
+      height="160"
+      src="/grapes.jpg"
+    />
+    <div
+      class="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+    >
+      <div
+        class="MuiBox-root css-69i1ev"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap css-ddygbf-MuiTypography-root"
+          title="Grapes"
+        >
+          Grapes
+        </h6>
+      </div>
+      <div
+        class="MuiBox-root css-ohugnc"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1d963ga-MuiTypography-root"
+        >
+          Rs. 90.00
+        </h6>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-13rm4i2-MuiTypography-root"
+        >
+          Rs. 100.00
+        </p>
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-1sbvnan-MuiTypography-root"
+        title="Fresh Grapes from Nashik."
+      >
+        Fresh Grapes from Nashik.
+      </p>
+    </div>
+    <div
+      class="MuiCardActions-root MuiCardActions-spacing css-1vua6p0-MuiCardActions-root"
+    >
+      <div
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-fullWidth css-1fu7jd5-MuiButtonBase-root-MuiButton-root"
+        role="button"
+        tabindex="0"
+      >
+        <span
+          class="MuiButton-icon MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="9"
+              cy="21"
+              r="1"
+            />
+            <circle
+              cx="20"
+              cy="21"
+              r="1"
+            />
+            <path
+              d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+            />
+          </svg>
+        </span>
+        Add to Cart
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

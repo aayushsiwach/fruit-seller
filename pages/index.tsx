@@ -20,7 +20,7 @@ import { useQuery } from "@tanstack/react-query";
 import { useState } from "react";
 import ProductCard from "@/src/components/ProductCard";
 import { FiArrowRight } from "react-icons/fi";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, px } from "framer-motion";
 import { ItemType } from "@/types/types";
 import Newsletter from "@/src/components/NewsLetter";
 
@@ -201,26 +201,37 @@ export default function Home() {
                         >
                             {heroSlides[currentSlide].subtitle}
                         </Typography>
-                        <Button
-                            variant="contained"
-                            color="secondary"
-                            size="large"
-                            onClick={() =>
-                                router.push(heroSlides[currentSlide].ctaLink)
-                            }
-                            sx={{
-                                px: 4,
-                                py: 1.5,
-                                fontSize: "1rem",
-                                borderRadius: 2,
-                                textTransform: "none",
-                            }}
-                            component={motion.div}
+                        <motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
+                            style={{
+                                // padding: "2 0 2 0",
+                                borderRadius: 8,
+                                overflow: "hidden",
+                                border: "none",
+                            }}
                         >
-                            {heroSlides[currentSlide].cta}
-                        </Button>
+                            <Button
+                                variant="contained"
+                                color="secondary"
+                                size="large"
+                                onClick={() =>
+                                    router.push(
+                                        heroSlides[currentSlide].ctaLink
+                                    )
+                                }
+                                sx={{
+                                    px: 4,
+                                    py: 1.5,
+                                    fontSize: "1rem",
+                                    // borderRadius: 2,
+                                    textTransform: "none",
+                                }}
+                                // component={motion.button}
+                            >
+                                {heroSlides[currentSlide].cta}
+                            </Button>
+                        </motion.button>
                     </motion.div>
                 </Container>
             </Grid>
